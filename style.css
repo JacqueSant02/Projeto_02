@@ -19,7 +19,7 @@ html,body{
 }
 
 .bg{
-    background: url('image/bg-2.png') no-repeat;
+    background: url() no-repeat;
     background-size: cover;
     width: 100%;
     height: auto;
@@ -34,16 +34,14 @@ html,body{
     min-height: 95vh;
 }
 
-.titulo{
-    width: 100%;
-    min-height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin-top: 40px;
-    text-shadow: 0 0 10px #545454;
-    color: #2B2B2B;
+.logo{
+    background: url('imge/logo-roupa.png') no-repeat;
+    background-size: contain;
+    width: 130px ;
+    height: 80px;
+    position: relative;
+    top: 20px;
+    z-index: 9;
 }
 
 .line{
