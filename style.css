@@ -451,6 +451,53 @@ header .right .imagem img{
 /* ####Fim do service#### */
 
 /* ####Contact#### */    
+#contact.container{
+    flex-direction: column;
+   height: 90vh;
+}
+
+#contact.content{
+    flex-direction: row;
+}
+
+#contact.container.titulo{
+    min-height: 0;
+    margin-bottom: 60px;
+}
+
+#contact.container.left{
+    box-shadow: 0 0 15px #848790;
+    margin: 2%;
+
+}
+
+#contact.container.left.box{
+    width: 100%;
+    height: 50vh;
+    background: #c3bcb7;
+
+}
+
+#contact.container.left.box h1{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #1B3B56;
+}
+
+#contact.container.left.box h1 form{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact.container.left.box h1 form input{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
 
 /* ####Fim do contact#### */
 
