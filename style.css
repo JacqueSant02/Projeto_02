@@ -77,6 +77,56 @@ img{
     object-fit: contain;
 }
 
+button{
+    padding: 10px;
+    background: #1B3B56;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: 0, 8s ease;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button:hover{
+    border: 1px solid #8B634A;
+    background: #8B634A;
+    color: #fff;
+    transform: scale(1.10);
+}
+
+
+.text-pq{
+    font-size: 20px; 
+}
+
+.text-md{
+    font-size: 42px;
+}
+
+.text-gd{
+    font-size: 72px;
+}
+
+.text-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.color-azul{
+    color: #1B3B56;
+}
+
+.color-azul-1{
+    color: #5271FF;
+}
+
+.color-cinza-2{
+    color: #545454 ;
+}
+
+
 
     
 /* #### Header #### */
