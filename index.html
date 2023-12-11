@@ -1,208 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja de Roupas Online</title>
+    <title>Biblioteca</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="configurar.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+ 
 </head>
 <body>
-    <!--Aqui começa o Header-->
-
-    <header class="max-width bg" id="Home">
-        <div class="container">
-            <nav class="menu">
-                <div class="logo"></div>
-                <div class="desktop-menu">
-                    <ul>
-                        <li><a href="#Home">Home</a></li>
-                        <li><a href="#About">Novidades</a></li>
-                        <li><a href="#Service">Destaque</a></li>
-                        <li><a href="#Contact">Contato</a></li>
-                    </ul>
-                </div>
-
-                <div class="mobile-menu" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                    <ul id="myLinks">
-                        <li><a href="#Home">Home</a></li>
-                        <li><a href="#About">Novidades</a></li>
-                        <li><a href="#Service">Destaque</a></li>
-                        <li><a href="#Contact">Contato</a></li>
-                    </ul>
-                </div>
-            </nav>
-
-            <div class="call">
-                <div class="left">
-                    <h1 class="color-azul text-gd">Novas Coleções</h1>
-                    <p class="color-azul text-pq">Lorem ipsum dolor sit amet, consectetur 
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <button>Compre Agora</button>
-                </div>
-                <div class="right">
-                    <div class="imagem">
-                        <img src="image/r9.png" alt="">
+    <header>
+        <!--inicio-->
+        <header class="cabecalho">
+            <h1 class="logo">MY Biblioteck</h1>
+                    <div class="escolha">
+                        <ul>
+                            
+                            <li> <button class="botao"><a href="categorias.html">categorias</a></button></li>
+                            <li><button class="botao"><a href="sobre-nos.html">sobre nos</a></button></li>
+                            
+                        </ul>
                     </div>
+    
+    </header>
+    
+       
+     <!--barra de pesuisa-->
+      <form class="pesa" action="/action_page.js" style="margin:auto;max-width:300px">
+        <input type="text" placeholder="Livro?" name="pesuisa">
 
-                </div>
-            </div>
-        </div>
-        <button id="back-to-top">^</button>
-</header>
-
-<!--Aqui Termina o Header-->
-
-<!--Aqui começa o About-->
-
-<section class="max-width bg2" id="About">
-    <div class="container">
-        <div class="titulo">
-            <h2 class="text-md color-cinza-1">Novidades</h2>
-            <div class="line">
-                <div class="text-titulo">Roupas</div>
-            </div>
-        </div>
-        <div class="down">
-            <div class="box">
-                <img src="image/b1.png" alt="">
-                <div class="text">
-                    <h2 class="color-branco">Conjunto</h2>
-                    <p class="color-branco">Coleção de Inverno</p>
-                    <i class="fa fa-long-arrow-right"></i>
-                </div>
-            </div>
-            <div class="box">
-                <img src="image/b2.png" alt="">
-                <div class="text">
-                    <h2 class="color-branco">Conjunto</h2>
-                    <p class="color-branco">Coleção de Inverno</p>
-                    <i class="fa fa-long-arrow-right"></i>
-                </div>
-            </div>
-            <div class="box">
-                <img src="image/b3.png" alt="">
-                <div class="text">
-                    <h2 class="color-branco">Conjunto</h2>
-                    <p class="color-branco">Coleção de Inverno</p>
-                    <i class="fa fa-long-arrow-right"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--Aqui Termina o About-->
-
-<!--Aqui começa o Service-->
-<section class="max-width bg" id="Service">
-    <div class="container">
-        <div class="content">
-            <div class="titulo">
-                <h2 class="text-md color-cinza-1">Destaque</h2>
-                <div class="line">
-                    <div class="text-titulo">Promoções</div>
-                </div>
-            </div>
-                <input type="radio" name="slider" id="item-1" checked>
-                <input type="radio" name="slider" id="item-2">
-                <input type="radio" name="slider" id="item-3">
-                <div class="cards">
-                    <label class="card" for="item-1" id="song-1">
-                        <img src="image/p1.jpg" alt="">
-                        <button>Comprar Agora</button>
-                    </label>
-
-                    <label class="card" for="item-2" id="song-2">
-                        <img src="image/p2.jpg">
-                        <button>Comprar Agora</button>
-                    </label>
-
-                    <label class="card" for="item-3" id="song-3">
-                        <img src="image/p3.jpg">
-                        <button>Comprar Agora</button>
-                    </label>
-                </div>
-        </div>
-    </div>
-</section>
-
-<!--Aqui Termina o Service-->
-
-<!--Aqui Começa o Contact-->  <!--continuar-->  
-    <section class="max-width bg2" id="Contact" >
-       <div class="container">
-        <div class="titulo">
-            <h2 class="text-md color-cinza-1">Novidades</h2>
-            <div class="line">
-                <div class="text-titulo">Roupas</div>
-            </div>
-        </div>
-         <div class="content">
-            <div class="left">
-                <div class="box">
-                    <h1>Nosso Newsletter</h1>
-                    <form action="">
-                        <input type="text" placeholder="Nome Completo">
-                        <input type="email" placeholder="Seu E-Mail">
-                        <input type="submit" value="Inscreva-se">
-                    </form>
-                    <h1>Siga-nos</h1>
-                    <div class="social">
-                      <i class="fa-brands fa-intagram"></i>
-                      <i class="fa-brands fa-facebook"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="right">
-                <div class="box">
-                    <h1>Nosso Endereço</h1>
-                    <div class="info">
-                        <div class="icons">
-                            <i class="fa-solid fa-envelope"></i>
-                            <i class="fa-solid fa-phone"></i>
-                            <i class="fa-solid fa-location-dot"></i>
-                        </div>
-                    </div>
-                    <div class="text">
-                        <p>info@front.com</p>
-                        <p>+44 33 4444-4444</p>
-                        <p>Minas Gerais,Brasil</p>
-                    </div>
-                </div>
-            </div>
-         </div>
-       </div>    
-    </section>
-<!--fim do Contact-->
-
-
-<!--CODIGO COMPLETO-->
- <!--script-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script>
-
-        // Menu-Mobile     <!--CODIGO COMPLETO-->
-
-       function myFunction() {
-            var x = document.getElementById("myLinks");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
-}
-        // Scrollbar Personalizado  <!--CODIGO COMPLETO-->
-
-            var btn = document.querySelector("#back-to-top");
-            btn.addEventListener("click", function() {
-                window.scrollTo(0, 0);
-            });
-    </script>
-   
+        <button type="submit">
+            <span class="material-icons">
+                search
+                </span>
+        </button>
+      </form>
+     <div class="livros">
+      <ul>
+        <li><p class="fonte-titulo">A culpa é das Estrelas</p><img src="download.jpeg"alt="a culpa é"></li> 
+        <li><p class="fonte-titulo">É assim que começa</p><img src="download (1).jpeg" alt="se começa"></li>
+        <li><p class="fonte-titulo">O lado feio do amor</p><img src="download (2).jpeg" alt="lado feio do amor"></li>
+        <li><p class="fonte-titulo">O Pequeno Príncipe</p><img src="download (3).jpeg" alt="principe"></li>
+    
+      </ul>
+     </div>
 </body>
 </html>
